@@ -1,0 +1,47 @@
+.contend-players{
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Panorama_of_Anfield_with_new_main_stand_%2829676137824%29.jpg/1920px-Panorama_of_Anfield_with_new_main_stand_%2829676137824%29.jpg);
+  background-repeat: round;
+  .goalie{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+  }
+  .defending{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 60px;
+  }
+  .midfielders{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 60px;
+  }
+  .strikers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 60px;
+  }
+  .card{
+    width: 200px;
+    height: fit-content;
+
+    .card-img-top{
+      width: auto;
+      height: 140px;
+    }
+  }
+}
+.img-players{
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}

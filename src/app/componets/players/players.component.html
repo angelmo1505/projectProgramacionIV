@@ -1,0 +1,46 @@
+<div class="contend-players">
+  <div class="goalie">
+    <div class="img-players" *ngFor="let player of goalie">
+      <div class="card">
+        <img src="{{player.image}}" class="card-img-top" alt="Sunset Over the Sea"/>
+        <div class="card-body">
+          <p class="card-text">{{player.nombre}} {{player.apellido}}</p>
+          <p class="card-text">Edad: {{player.edad}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="defending">
+    <div class="img-players" *ngFor="let player of defending">
+      <div class="card">
+        <img src="{{player.image}}" class="card-img-top" alt="Sunset Over the Sea"/>
+        <div class="card-body">
+          <p class="card-text">{{player.nombre}} {{player.apellido}}</p>
+          <p class="card-text">Edad: {{player.edad}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="midfielders">
+    <div class="img-players" *ngFor="let player of midfielders">
+      <div class="card">
+        <img src="{{player.image}}" class="card-img-top" alt="Sunset Over the Sea"/>
+        <div class="card-body">
+          <p class="card-text">{{player.nombre}} {{player.apellido}}</p>
+          <p class="card-text">Edad: {{player.edad}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="strikers" >
+    <div class="img-players" *ngFor="let player of strikers">
+      <div class="card">
+        <img src="{{player.image}}" class="card-img-top" alt="Sunset Over the Sea"/>
+        <div class="card-body">
+          <p class="card-text">{{player.nombre}} {{player.apellido}}</p>
+          <p class="card-text">Edad: {{player.edad}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

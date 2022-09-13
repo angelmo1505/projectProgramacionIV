@@ -1,0 +1,18 @@
+
+  [
+    {
+      "id": "1",
+      "nombre": "Miguel",
+      "apellido": "Montes",
+      "estado": true,
+      "edad": 34
+    },
+    {
+      "id": "2",
+      "nombre": "Angel",
+      "apellido": "Orozco",
+      "estado": true,
+      "edad": 34
+    }
+  ]
+
